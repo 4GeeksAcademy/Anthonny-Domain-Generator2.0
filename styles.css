@@ -18,3 +18,15 @@ h3{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
 }
+
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre los elementos */
+}
+  
+#resultado div {
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
